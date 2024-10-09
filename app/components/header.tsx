@@ -1,26 +1,35 @@
 import React from 'react'
 
-const carousel = () => {
+const header = () => {
   return (
     <>
-    <div id="indicators-carousel" className="relative w-full" data-carousel="static">
-    <div className="relative h-56 overflow-hidden rounded-lg md:h-96"> 
+    
+
+<div id="indicators-carousel" className="relative w-full" data-carousel="static">
+   
+    <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
+         
         <div className="hidden duration-700 ease-in-out" data-carousel-item="active">
-            <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-y=.8&w=2830&h=1500&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
+            <img src="/docs/images/carousel/carousel-1.svg" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
         </div>
+        
         <div className="hidden duration-700 ease-in-out" data-carousel-item>
             <img src="/docs/images/carousel/carousel-2.svg" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
         </div>
+        
         <div className="hidden duration-700 ease-in-out" data-carousel-item>
             <img src="/docs/images/carousel/carousel-3.svg" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
         </div>
+        
         <div className="hidden duration-700 ease-in-out" data-carousel-item>
             <img src="/docs/images/carousel/carousel-4.svg" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
         </div>
+        
         <div className="hidden duration-700 ease-in-out" data-carousel-item>
             <img src="/docs/images/carousel/carousel-5.svg" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
         </div>
     </div>
+    
     <div className="absolute z-30 flex -translate-x-1/2 space-x-3 rtl:space-x-reverse bottom-5 left-1/2">
         <button type="button" className="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
         <button type="button" className="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
@@ -44,9 +53,9 @@ const carousel = () => {
             <span className="sr-only">Next</span>
         </span>
     </button>
-    </div>
+</div>
     </>
   )
 }
 
-export default carousel
+export default header

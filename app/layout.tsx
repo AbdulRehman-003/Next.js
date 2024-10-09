@@ -2,8 +2,11 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import Navbar from "./components/navbar";
-import Carousel from "./components/carousel";
+import Header from "./components/header";
 import Footer from "./components/footer";
+import Logos from "./components/logo_clouds";
+import Status from "./components/status";
+import Marketing from "./components/marketing_section"; 
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -30,8 +33,12 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Navbar />
-        <Carousel />
+        <Header />
+        <Logos />
+        <Marketing />
+        <Status />
         <Footer />
+        <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
       </body>
     </html>
   );
