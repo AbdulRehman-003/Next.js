@@ -4,6 +4,8 @@ import "./globals.css";
 import Navbar from "./components/navbar";
 import Banner from "./components/banner";
 import Header from "./components/header";
+import Product_list from "./components/product_list";
+import Levelup from "./components/levelup";
 import Footer from "./components/footer";
 import Logos from "./components/logo_clouds";
 import Status from "./components/status";
@@ -34,6 +36,8 @@ export default function RootLayout({children,}: Readonly<{
       <body>
         <Navbar />
         <Banner />
+        <Product_list />
+        <Levelup />
         <Header />
         <Logos />
         <Marketing />
