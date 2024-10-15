@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.image{
+  background-image: url('https://tailwindui.com/plus/img/ecommerce-images/home-page-01-hero-full-width.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+{
+    background-image: url('https://tailwindui.com/plus/img/ecommerce-images/home-page-01-feature-section-01.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.image-3{
+    background-image: url('https://tailwindui.com/plus/img/ecommerce-images/home-page-01-feature-section-02.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
